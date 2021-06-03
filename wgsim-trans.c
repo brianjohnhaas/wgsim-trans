@@ -266,7 +266,7 @@ void wgsim_core(FILE *fpout1, FILE *fpout2, const char *fn, int is_hap, uint64_t
 	fp_fa = gzopen(fn, "r");
 	ks = kseq_init(fp_fa);
 
-    int max_tries = 50;
+    //int max_tries = 50;
     int num_tries = 0;
     
 	while ((l = kseq_read(ks)) >= 0) {
